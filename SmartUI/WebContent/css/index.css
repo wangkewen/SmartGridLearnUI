@@ -1,0 +1,159 @@
+body{
+	margin:0;
+	background:url(../pic/background.jpg) no-repeat;
+}
+img{
+	border:0;
+}
+
+#content{
+	background:#fff top center;
+	min-height:274px;
+	margin: 30px 100px 20px;
+    padding: 30px;
+    width:760px;
+    opacity: 0.80;-moz-opacity: 0.80;
+    filter:alpha(opacity=80)
+    progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=8);/*IE8*/
+    -moz-box-shadow: 0px 0px 20px #909090;/*firefox*/
+    -webkit-box-shadow: 0px 0px 20px #909090;/*safari or chrome*/
+    box-shadow:0px 0px 20px#909090;/*IE 9*/
+}
+#content div#back a{
+	text-decoration:none;
+	font-family:verdana, sans-serif;
+	font-size:23px;
+	font-weight:bold;
+	color:#2894FF;
+}
+#content div#back a:hover{
+	color:#000079;
+}
+#content div#form{
+	border: 0px solid #FF0000;
+}
+#content div#form ul{
+	list-style:none;
+	padding-left:2px;
+}
+#content div#form ul#list li{
+	
+	height:30px;
+	width:730px;
+}
+#content div#form ul#list li .txt{
+	display:inline-block;
+	width:230px;
+	text-align:right;
+	font-family:verdana,sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#000079;
+}
+#content div#form ul#list li .check{
+	margin-left:10px;
+	font-size:18px;
+	color:#F00;
+}
+#content div#form ul#list li input{	
+	margin-left:26px;
+	height:26px;
+	font-size:20px;
+	width:280px;
+	border:1px solid #ACBCC9;
+}
+
+#content div#form ul#button span{
+	display:inline-block;
+	font-size:20px;
+	color:#0ff;
+	text-align:center;
+	margin-left:150px;
+}
+#content div#form ul#button span input{
+	cursor:pointer;
+	background:#2894FF;
+	font-family:verdana,sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	width:100px;
+	height:30px;
+	border:0;
+}
+#content div#form ul#button span input:hover{
+	background:#0066CC;
+}
+#content div#click{
+	width:135px;
+	cursor:pointer;
+	color:#000079;
+	font-family:verdana,sans-serif;
+}
+#content div#click:hover{
+	font-weight:bold;
+	color:#000079;
+}
+#recontent{
+	min-height:274px;
+	
+    width:760px;
+    
+}
+#recontent div#title{
+	font-size:30px;
+	font-weight:bold;
+	color:#8B0000;
+}
+#recontent div#form{
+	border: 1px solid #97CBFF;
+}
+#recontent div#form ul{
+	list-style:none;
+	padding-left:2px;
+}
+#recontent div#form ul#list li{
+	
+	height:30px;
+	width:730px;
+}
+#recontent div#form ul#list li .txt{
+	display:inline-block;
+	width:230px;
+	text-align:right;
+	font-family:verdana,sans-serif;
+	font-size:18px;
+	color:#003D79;
+}
+#recontent div#form ul#list li .check{
+	margin-left:10px;
+	font-size:18px;
+	color:#F00;
+}
+#recontent div#form ul#list li input{	
+	margin-left:26px;
+	height:26px;
+	font-size:20px;
+	width:280px;
+	border:1px solid #ACBCC9;
+}
+
+#recontent div#form ul#button span{
+	display:inline-block;
+	font-size:20px;
+	color:#0ff;
+	text-align:center;
+	margin-left:150px;
+}
+#recontent div#form ul#button span input{
+	background:#009393;
+	font-family:verdana,sans-serif;
+	font-size:18px;
+	color:#fff;
+	width:100px;
+	height:30px;
+	border:0;
+}
+#recontent div#form ul#button span input:hover{
+	background:#005757;
+}
